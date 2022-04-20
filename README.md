@@ -23,7 +23,7 @@ The project was designed after chasing and tracking multiple home Internet outag
 
 - Publish program start time, up time and outage time MQTT messages to a broker
 
-   o	 I used a Raspberry Pi as the broker and Node Red to post the information and write to a log 
+  - I used a Raspberry Pi as the broker and Node Red to post the information and write to a log 
 
 
 **Design:**
@@ -45,7 +45,7 @@ The project was designed after chasing and tracking multiple home Internet outag
 
 - Program start time, up time and outage time MQTT messages will be published to a broker. Note – outage time can not be sent until the network is back up.
 
-   o	 Optional – logging of program start time, up time and outage time.
+  - Optional – logging of program start time, up time and outage time.
 
 
 **Operating Modes**
