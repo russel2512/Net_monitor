@@ -48,7 +48,6 @@ The project was designed after chasing and tracking multiple home Internet outag
   - Optional – logging of program start time, up time and outage time.
 
 
-**Operating Modes**
 
 **Normal operation:**
 
