@@ -4,7 +4,7 @@ Designed for WIZnet WS5100S-EVB-Pico contest.
 
 https://maker.wiznet.io/2022/01/21/internet-outage-monitor/?success=1&post_id=25762
 
-Network/internet outage monitor using WIZnet WS5100S-EVB-Pico
+** Network/internet outage monitor using WIZnet WS5100S-EVB-Pico **
 
 This project uses a WIZnet WS5100S-EVB-Pico attached to a spare Ethernet port on a local router. The Pico is used to monitor the Internet/Network connection for outages. 
 
