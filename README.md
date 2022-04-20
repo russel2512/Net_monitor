@@ -62,7 +62,14 @@ The project was designed after chasing and tracking multiple home Internet outag
 ![Network issue](https://user-images.githubusercontent.com/13513067/164153191-cde6b16f-ee63-4a0d-8c0c-69a46836d010.jpg)
 
 
-Node Red
+**Node Red screen**
 
-![Node Red flow](https://user-images.githubusercontent.com/13513067/164157268-5777b1f0-669e-4844-8fc9-01693e2c9ec9.jpg)
+**Startup**
+![Node Res - Start](https://user-images.githubusercontent.com/13513067/164322109-1e07b24e-673f-4efc-bfd3-1f850cb42d0b.jpg)
+
+**Error**
+![Node Red - Error](https://user-images.githubusercontent.com/13513067/164322256-e4e98656-07a6-48fe-b4a3-0dadf79e46de.jpg)
+
+
+
 
