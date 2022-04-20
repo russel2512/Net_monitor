@@ -10,8 +10,8 @@ This project uses a WIZnet WS5100S-EVB-Pico attached to a spare Ethernet port on
 
 The project was designed after chasing and tracking multiple home Internet outages.  
 
-The program will:
 
+The program will:
 •	Detect the Ethernet cable unplugged from the Pico or the Ethernet port
 
 •	Detect Network or Internet outages
@@ -26,7 +26,6 @@ o	I used a Raspberry Pi as the broker and Node Red to post the information and w
 
 
 Design:
-
 •	The program is written in CircuitPython. Thronny is used as the editor.
 
 •	Program file name is code.py. This allows the program to autostart on powerup. Note – the program will fail to start if the Ethernet cable is not plugged in.
