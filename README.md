@@ -12,6 +12,7 @@ The project was designed after chasing and tracking multiple home Internet outag
 
 
 The program will:
+
 •	Detect the Ethernet cable unplugged from the Pico or the Ethernet port
 
 •	Detect Network or Internet outages
@@ -22,10 +23,11 @@ The program will:
 
 •	Publish program start time, up time and outage time MQTT messages to a broker
 
-o	I used a Raspberry Pi as the broker and Node Red to post the information and write to a log 
+   o	I used a Raspberry Pi as the broker and Node Red to post the information and write to a log 
 
 
 Design:
+
 •	The program is written in CircuitPython. Thronny is used as the editor.
 
 •	Program file name is code.py. This allows the program to autostart on powerup. Note – the program will fail to start if the Ethernet cable is not plugged in.
@@ -44,7 +46,7 @@ Design:
 
 •	Program start time, up time and outage time MQTT messages will be published to a broker. Note – outage time can not be sent until the network is back up.
 
-o	Optional – logging of program start time, up time and outage time.
+   o	Optional – logging of program start time, up time and outage time.
 
 
 
