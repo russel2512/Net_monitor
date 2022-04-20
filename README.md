@@ -50,6 +50,7 @@ Design:
 
 
 Operating Modes
+
 Normal operation:
 
 ![Normal operation](https://user-images.githubusercontent.com/13513067/164152993-e3de5b03-2e99-4964-8fc8-1f7138fec52e.jpg)
