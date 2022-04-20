@@ -11,23 +11,40 @@ This project uses a WIZnet WS5100S-EVB-Pico attached to a spare Ethernet port on
 The project was designed after chasing and tracking multiple home Internet outages.  
 
 The program will:
+
 •	Detect the Ethernet cable unplugged from the Pico or the Ethernet port
+
 •	Detect Network or Internet outages
+
 •	Light LEDs to indicate connection ok, cable disconnected and Network/Internet outages
+
 •	Display tracking information through the serial port
+
 •	Publish program start time, up time and outage time MQTT messages to a broker
+
 o	I used a Raspberry Pi as the broker and Node Red to post the information and write to a log 
 
+
 Design:
+
 •	The program is written in CircuitPython. Thronny is used as the editor.
+
 •	Program file name is code.py. This allows the program to autostart on powerup. Note – the program will fail to start if the Ethernet cable is not plugged in.
+
 •	The program will try to resolve a .com URL. I used dns.google. I also tested with my router URL.
+
 •	The board and external green LEDs will be on during good connections.
+
 •	If the program can’t resolve the URL, the external green LED will turn off and the red external LED will turn on.
+
 •	If the Ethernet cable becomes unplugged, both the external and internal green LEDs will turn off and the external red LED will turn on.
+
 •	The program will check the URL every 2 minutes and if there is an outage, it will check every 30 seconds.
+
 •	All information will be displayed on the serial port.
+
 •	Program start time, up time and outage time MQTT messages will be published to a broker. Note – outage time can not be sent until the network is back up.
+
 o	Optional – logging of program start time, up time and outage time.
 
 
