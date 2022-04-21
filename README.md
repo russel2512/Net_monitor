@@ -48,6 +48,7 @@ The project was designed after chasing and tracking multiple home Internet outag
   - Optional – logging of program start time, up time and outage time.
 
 
+**Serial Port display inforamtion (and screen shot of LED status):**
 
 **Normal operation:**
 
@@ -62,6 +63,8 @@ The project was designed after chasing and tracking multiple home Internet outag
 ![Cable disconnected](https://user-images.githubusercontent.com/13513067/164153130-e0c81613-63fe-4434-8425-0e4acb147726.jpg)
 
 **Network issue:**
+
+![Serial port - 3](https://user-images.githubusercontent.com/13513067/164514162-cff9395a-c566-405b-92af-02572847e671.jpg)
 
 ![Network issue](https://user-images.githubusercontent.com/13513067/164153191-cde6b16f-ee63-4a0d-8c0c-69a46836d010.jpg)
 
