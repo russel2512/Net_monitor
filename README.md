@@ -51,9 +51,13 @@ The project was designed after chasing and tracking multiple home Internet outag
 
 **Normal operation:**
 
+![Serial port -1](https://user-images.githubusercontent.com/13513067/164374059-c697ab57-2236-4d6c-88a4-2cc02c4e4b33.jpg)
+
 ![Normal operation](https://user-images.githubusercontent.com/13513067/164152993-e3de5b03-2e99-4964-8fc8-1f7138fec52e.jpg)
 
 **Ethernet cable disconnected:**
+
+![Serial port - 2](https://user-images.githubusercontent.com/13513067/164374786-9ac5ba63-d854-4d15-9d8a-aa1767f951eb.jpg)
 
 ![Cable disconnected](https://user-images.githubusercontent.com/13513067/164153130-e0c81613-63fe-4434-8425-0e4acb147726.jpg)
 
@@ -67,9 +71,10 @@ The project was designed after chasing and tracking multiple home Internet outag
 **Startup**
 ![Node Res - Start](https://user-images.githubusercontent.com/13513067/164322109-1e07b24e-673f-4efc-bfd3-1f850cb42d0b.jpg)
 
-**Error**
+**Cable error**
 ![Node Red - Error](https://user-images.githubusercontent.com/13513067/164322256-e4e98656-07a6-48fe-b4a3-0dadf79e46de.jpg)
 
-
+**Network error**
+![Node Red - Network error](https://user-images.githubusercontent.com/13513067/164326331-28622515-88e5-42c9-9d5f-08bc062cb3c7.jpg)
 
 
