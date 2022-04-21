@@ -47,6 +47,9 @@ The project was designed after chasing and tracking multiple home Internet outag
 
   - Optional – logging of program start time, up time and outage time.
 
+**Circuit diagram**
+
+![circuit](https://user-images.githubusercontent.com/13513067/164536405-280b8052-20c9-4218-bf58-c11763f9d29a.jpg)
 
 **Serial Port display inforamtion (and screen shot of LED status):**
 
