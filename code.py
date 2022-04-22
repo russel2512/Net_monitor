@@ -3,7 +3,7 @@ Developed by Russ Terrell
 Written in Adafruit CircuitPython 7.1.1 on 2022-01-14; Raspberry Pi Pico with rp2040
 Libraries developed by Adafruit and WIZnet
 
-Version 1.00 04-00-2022
+Version 1.00 04-14-2022
 
 """
 
