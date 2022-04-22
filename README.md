@@ -13,7 +13,7 @@ The project was designed after chasing and tracking multiple home Internet outag
 
 **The program will:**
 
-- Detect the Ethernet cable unplugged from the Pico or the Ethernet port
+- Detect the Ethernet cable unplugged from the WS5100S or the Ethernet port on the router
 
 - Detect Network or Internet outages
 
