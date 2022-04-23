@@ -81,4 +81,13 @@ This project uses a WIZnet WS5100S-EVB-Pico attached to a spare Ethernet port on
 **Network error**
 ![Node Red - Network error](https://user-images.githubusercontent.com/13513067/164326331-28622515-88e5-42c9-9d5f-08bc062cb3c7.jpg)
 
+**Future enhancements:**
+These are just ‘blue sky’ ideas. Some may not be valid or work. The biggest ‘got ya’ is the fact that the down/up information can’t be sent to the broker until the network is backup. This means the data will always cause a notification after the outage.
+- Break up data for better data handling (ie, filling JASON fields and adding to databases)
+- Deploy MQTT broker on PC and or Phone
+- Use IFFT to send phone or text notifications
+- Calculate downtime in the program or in Node Red
+- Send Start, Up and Down data to external collection (ie ThingSpeak)
+- Send notifications to a phone or PC directly from Node Red
+- Add code to monitor multiple URLs, this could be used to monitor multiple servers or internal network devices (must have URLs)
 
