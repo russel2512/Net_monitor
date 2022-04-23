@@ -19,32 +19,26 @@ This project uses a WIZnet WS5100S-EVB-Pico attached to a spare Ethernet port on
   - I used a Raspberry Pi as the broker and Node Red to post the information and write to a log 
 
 
+
 **Design:**
+
 - The program is written in CircuitPython. Thronny is used as the editor.
-
 - Program file name is code.py. This allows the program to autostart on powerup. **Note –** *the program will fail to start if the Ethernet cable is not plugged in.*
-
 - The program will try to resolve a **.com** URL. I used **dns.google**. I also tested with my router URL.
-
 - The board and external green LEDs will be on during good connections.
-
 - If the program can’t resolve the URL, the external green LED will turn off and the red external LED will turn on.
-
 - If the Ethernet cable becomes unplugged, both the external and internal green LEDs will turn off and the external red LED will turn on.
-
 - The program will check the URL every 2 minutes and if there is an outage, it will check every 30 seconds to determine if the outage has cleared.
-
 - All information will be displayed on the serial port.
-
 - Program start time, up time and outage time will be published as MQTT messages to a broker. **Note –** *outage time can not be sent until the network is back up.*
-
 - Use a Raspberry Pi for the MQTT broker. Use Node Red for data presentation and logging of program start time, up time and outage time. **Note –** *a broker must be available to the program to publish MQTT messages. If one isn't available, remark all publish calls in the program.*
+
 
 **Circuit diagram**
 
 ![circuit](https://user-images.githubusercontent.com/13513067/164536405-280b8052-20c9-4218-bf58-c11763f9d29a.jpg)
 
-**Serial Port display inforamtion (and screen shot of LED status):**
+**Serial Port display inforamtion with screen shots of LED status:**
 
 **Normal operation:**
 
@@ -75,6 +69,7 @@ This project uses a WIZnet WS5100S-EVB-Pico attached to a spare Ethernet port on
 
 **Network error**
 ![Node Red - Network error](https://user-images.githubusercontent.com/13513067/164326331-28622515-88e5-42c9-9d5f-08bc062cb3c7.jpg)
+
 
 **Future enhancements:**
 
