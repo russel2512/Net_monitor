@@ -29,7 +29,7 @@ This project uses a WIZnet WS5100S-EVB-Pico attached to a spare Ethernet port on
 
 - Program file name is code.py. This allows the program to autostart on powerup. **Note –** *the program will fail to start if the Ethernet cable is not plugged in.*
 
-- The program will try to resolve a .com URL. I used dns.google. I also tested with my router URL.
+- The program will try to resolve a **.com** URL. I used **dns.google**. I also tested with my router URL.
 
 - The board and external green LEDs will be on during good connections.
 
@@ -41,7 +41,7 @@ This project uses a WIZnet WS5100S-EVB-Pico attached to a spare Ethernet port on
 
 - All information will be displayed on the serial port.
 
-- Program start time, up time and outage time MQTT messages will be published to a broker. Note – outage time can not be sent until the network is back up.
+- Program start time, up time and outage time MQTT messages will be published to a broker. **Note –** *outage time can not be sent until the network is back up.*
 
   - Optional – logging of program start time, up time and outage time.
 
