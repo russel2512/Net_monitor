@@ -9,6 +9,7 @@ https://maker.wiznet.io/2022/01/21/internet-outage-monitor/?success=1&post_id=25
 This project uses a WIZnet WS5100S-EVB-Pico attached to a spare Ethernet port on a local router. The WS5100S is used to monitor the Internet/Network connection for outages. The project was designed after chasing and tracking multiple home Internet outages.  
 
 
+
 **The program will:**
 
 - Detect the Ethernet cable unplugged from the WS5100S or the Ethernet port on the router
@@ -59,7 +60,7 @@ This project uses a WIZnet WS5100S-EVB-Pico attached to a spare Ethernet port on
 ![Network issue](https://user-images.githubusercontent.com/13513067/164153191-cde6b16f-ee63-4a0d-8c0c-69a46836d010.jpg)
 
 
-**Node Red screen**
+**Node Red screen shots**
 
 **Startup**
 ![Node Res - Start](https://user-images.githubusercontent.com/13513067/164322109-1e07b24e-673f-4efc-bfd3-1f850cb42d0b.jpg)
