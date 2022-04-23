@@ -12,15 +12,10 @@ This project uses a WIZnet WS5100S-EVB-Pico attached to a spare Ethernet port on
 **The program will:**
 
 - Detect the Ethernet cable unplugged from the WS5100S or the Ethernet port on the router
-
 - Detect Network or Internet outages
-
 - Light LEDs to indicate connection ok, cable disconnected and Network/Internet outages
-
 - Display tracking information through the serial port
-
 - Publish program start time, up time and outage time MQTT messages to a broker
-
   - I used a Raspberry Pi as the broker and Node Red to post the information and write to a log 
 
 
