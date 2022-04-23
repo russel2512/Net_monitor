@@ -37,13 +37,13 @@ This project uses a WIZnet WS5100S-EVB-Pico attached to a spare Ethernet port on
 
 - If the Ethernet cable becomes unplugged, both the external and internal green LEDs will turn off and the external red LED will turn on.
 
-- The program will check the URL every 2 minutes and if there is an outage, it will check every 30 seconds.
+- The program will check the URL every 2 minutes and if there is an outage, it will check every 30 seconds to determine if the outage has cleared.
 
 - All information will be displayed on the serial port.
 
-- Program start time, up time and outage time MQTT messages will be published to a broker. **Note –** *outage time can not be sent until the network is back up.*
+- Program start time, up time and outage time will be published as MQTT messages to a broker. **Note –** *outage time can not be sent until the network is back up.*
 
-  - Optional – logging of program start time, up time and outage time.
+- Use a Raspberry Pi for the MQTT broker. Use Node Red for data presentation and logging of program start time, up time and outage time. **Note –** *a broker must be available to the program to publish MQTT messages. If one isn't available, remark all publish calls in the program.*
 
 **Circuit diagram**
 
