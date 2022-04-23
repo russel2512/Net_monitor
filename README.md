@@ -6,9 +6,7 @@ https://maker.wiznet.io/2022/01/21/internet-outage-monitor/?success=1&post_id=25
 
 **Network/internet outage monitor using WIZnet WS5100S-EVB-Pico**
 
-This project uses a WIZnet WS5100S-EVB-Pico attached to a spare Ethernet port on a local router. The WS5100S is used to monitor the Internet/Network connection for outages. 
-
-The project was designed after chasing and tracking multiple home Internet outages.  
+This project uses a WIZnet WS5100S-EVB-Pico attached to a spare Ethernet port on a local router. The WS5100S is used to monitor the Internet/Network connection for outages. The project was designed after chasing and tracking multiple home Internet outages.  
 
 
 **The program will:**
@@ -29,7 +27,7 @@ The project was designed after chasing and tracking multiple home Internet outag
 **Design:**
 - The program is written in CircuitPython. Thronny is used as the editor.
 
-- Program file name is code.py. This allows the program to autostart on powerup. Note – the program will fail to start if the Ethernet cable is not plugged in.
+- Program file name is code.py. This allows the program to autostart on powerup. **Note – **the program will fail to start if the Ethernet cable is not plugged in.
 
 - The program will try to resolve a .com URL. I used dns.google. I also tested with my router URL.
 
