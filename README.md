@@ -1,4 +1,4 @@
-# Net_monitor
+# WIZnet_monitor
 
 Designed for WIZnet WS5100S-EVB-Pico contest.
 
