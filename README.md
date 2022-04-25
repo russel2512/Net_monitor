@@ -25,7 +25,7 @@ This project uses a WIZnet WS5100S-EVB-Pico attached to a spare Ethernet port on
 
 - The program is written in CircuitPython. Thronny is used as the editor.
 - Program file name is code.py. This allows the program to autostart on powerup. **Note –** *the program will fail to start if the Ethernet cable is not plugged in.*
-- The program will try to resolve a **.com** URL. I used **dns.google**. I also tested with my router URL.
+- The program will try to resolve a **.com** URL. I used **dns.google**. The program was also tested with my router URL.
 - The board and external green LEDs will be on during good connections.
 - If the program can’t resolve the URL, the external green LED will turn off and the red external LED will turn on.
 - If the Ethernet cable becomes unplugged, both the external and internal green LEDs will turn off and the external red LED will turn on.
