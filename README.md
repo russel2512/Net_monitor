@@ -41,7 +41,7 @@ This project uses a WIZnet WS5100S-EVB-Pico attached to a spare Ethernet port on
 
 **Deployment:**
 
-This is an overview of the project deployment. I asume that you have a general knowledge of RP2040. Information can be found at Buy a Raspberry Pi Pico – Raspberry Pi and W5100S-EVB-Pico | WIZnet Document System. 
+This is an overview of the project deployment. I asume that you have a general knowledge of RP2040. Information can be found at https://www.raspberrypi.com/products/raspberry-pi-pico/. 
 
 This project was developed with CircuitPython 7.1.1 deployed on the WS5100S. A good reference can be found at Welcome To CircuitPython | Welcome to CircuitPython! | Adafruit Learning System.   
 Version 7.1.1 of CircuitPython can be found here:
