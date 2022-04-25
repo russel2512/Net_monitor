@@ -47,7 +47,6 @@ This project was developed with CircuitPython 7.1.1 deployed on the WS5100S. A g
 Version 7.1.1 of CircuitPython can be found here:
 adafruit-circuitpython-raspberry_pi_pico-en_US-7.1.1.uf2
 https://adafruit-circuit-python.s3.amazonaws.com/bin/raspberry_pi_pico/en_US/adafruit-circuitpython-raspberry_pi_pico-en_US-7.1.1.uf2
-
 **MU does not need to be installed.**
 
 Install Thonny IDE to program the WS5100S. 
