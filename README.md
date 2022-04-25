@@ -47,9 +47,9 @@ This is an overview of the project deployment. I asume that you have a general k
 This project was developed with CircuitPython 7.1.1 deployed on the WS5100S. A good reference can be found at https://learn.adafruit.com/welcome-to-circuitpython.   
 Version 7.1.1 of CircuitPython (adafruit-circuitpython-raspberry_pi_pico-en_US-7.1.1.uf2) can be found here:
 https://adafruit-circuit-python.s3.amazonaws.com/bin/raspberry_pi_pico/en_US/adafruit-circuitpython-raspberry_pi_pico-en_US-7.1.1.uf2
-**MU does not need to be installed.**
 
-Install Thonny IDE to program the WS5100S. It can be found here: https://thonny.org/ 
+Install Thonny IDE to program the WS5100S. It can be found here: https://thonny.org/.
+**MU does not need to be installed.**
 
 After the WS5100S with CircuitPython has been test with Blink, download and copy the following libraries:
 Create lib folder on the board
