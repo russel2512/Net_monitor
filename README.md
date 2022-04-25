@@ -42,7 +42,7 @@ This project uses a WIZnet WS5100S-EVB-Pico attached to a spare Ethernet port on
 
 **Deployment:**
 
-This is an overview of the project deployment. I asume that you have a general knowledge of RP2040. Information can be found at https://www.raspberrypi.com/products/raspberry-pi-pico/ and https://docs.wiznet.io/Product/iEthernet/W5100S/w5100s-evb-pico/. 
+This is an overview of the project deployment. You should have a general knowledge of RP2040. Information can be found at https://www.raspberrypi.com/products/raspberry-pi-pico/ and https://docs.wiznet.io/Product/iEthernet/W5100S/w5100s-evb-pico/. 
 
 This project was developed with CircuitPython 7.1.1 deployed on the WS5100S. A good reference can be found at https://learn.adafruit.com/welcome-to-circuitpython.   
 Version 7.1.1 of CircuitPython (adafruit-circuitpython-raspberry_pi_pico-en_US-7.1.1.uf2) can be found here:
@@ -52,14 +52,14 @@ Install Thonny IDE to program the WS5100S. It can be found here: https://thonny.
 **MU does not need to be installed.**
 
 After the WS5100S with CircuitPython has been test with Blink, download and copy the following libraries:
-Create lib folder on the board
-Wiznet/RP2040-HAT-CircuitPython (github.com) 
-adafruit_bus_device
-adafruit_io
-adafruit_minimqtt
-adafruit_wiznet5k
-adafruit_wsgi
-adafruit_requests.py
+Create **lib** folder on the board
+https://github.com/Wiznet/RP2040-HAT-CircuitPython 
+- adafruit_bus_device
+- adafruit_io
+- adafruit_minimqtt
+- adafruit_wiznet5k
+- adafruit_wsgi
+= adafruit_requests.py
 
 You will need to copy one more library to the lib folder:
 Libraries (circuitpython.org)
