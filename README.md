@@ -71,11 +71,11 @@ Copy the monitor code from https://github.com/russel2512/Net_monitor.
 Connect the LEDs per the circuit diagram found in the GitHub project.
 
 I'm not going into the details on how to setup a Raspberry Pi. 
-For information on Raspberry Pi deployment, see https://www.raspberrypi.com/.
-For information on Mosquitto MQTT broker, see https://randomnerdtutorials.com/how-to-install-mosquitto-broker-on-raspberry-pi.
-For information on Node Red, see https://nodered.org/docs/getting-started/raspberrypi.
-- Change the MQTT ip adress to the broker.
-- Change IP_ADDRESS if the device is on a different subnet or if 192.168.68.200 conflicts with device on your network.
+- For information on Raspberry Pi deployment, see https://www.raspberrypi.com/.
+- For information on Mosquitto MQTT broker, see https://randomnerdtutorials.com/how-to-install-mosquitto-broker-on-raspberry-pi.
+- For information on Node Red, see https://nodered.org/docs/getting-started/raspberrypi.
+  - Change the MQTT ip adress to the broker.
+  - Change IP_ADDRESS if the device is on a different subnet or if 192.168.68.200 conflicts with device on your network.
 
 For the program to work correctly a MQTT broker must be available or it will fail. A broker can be deployed on almost any device. If you don't have a broker available, you can go through the code and remark out all the MQTT calls.
 
