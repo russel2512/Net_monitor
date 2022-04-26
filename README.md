@@ -74,12 +74,14 @@ Setup a Raspberry Pi.
 - For information on Raspberry Pi deployment, see https://www.raspberrypi.com/.
 - For information on Mosquitto MQTT broker, see https://randomnerdtutorials.com/how-to-install-mosquitto-broker-on-raspberry-pi.
 - For information on Node Red, see https://nodered.org/docs/getting-started/raspberrypi.
+- Import the text from Node Red import.txt into Node Red. You will need to modify MQTT broker information.
+![Node Red - flow](https://user-images.githubusercontent.com/13513067/165227980-88bef4be-f135-4114-8fc6-52981cab1f86.jpg)
 
 Final changes to the programs (code.py and WIZnet_monitor.py)
 - Change the MQTT ip adress to the broker.
 - Change IP_ADDRESS if the device is on a different subnet or if 192.168.68.200 conflicts with device on your network.
 
-For the program to work correctly a MQTT broker must be available or it will fail. A broker can be deployed on almost any device. If you don't have a broker available, you can go through the code and remark out all the MQTT calls.
+**For the program to work correctly a MQTT broker must be available or it will fail. A broker can be deployed on almost any device. If you don't have a broker available, you can go through the code and remark out all the MQTT calls.**
 
 
 **Serial Port display inforamtion with screen shots of LED status:**
