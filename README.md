@@ -64,16 +64,16 @@ Test CircuitPython with the WS5100S using the Blink example program.
 - One more library needs to be copied to the lib folder.
    - Download adafruit-circuitpython-bundle-7.x-mpy-20220413.zip from https://circuitpython.org/libraries, upzip the file and copy adafruit_datetime.mpy to lib.
 
-Copy the monitor code from https://github.com/russel2512/Net_monitor
+Copy the monitor code from https://github.com/russel2512/Net_monitor.
 - code.py (autorun)
 - WIZnet_monitor.py (same as code.py, but does not autorun)
 
 Connect the LEDs per the circuit diagram found in the GitHub project.
 
 I'm not going into the details on how to setup a Raspberry Pi. 
-For information on Raspberry Pi deployment, see Raspberry Pi.
-For information on Mosquitto MQTT broker, see Install Mosquitto Broker Raspberry Pi | Random Nerd Tutorials.
-For information on Node Red, see Running on Raspberry Pi : Node-RED (nodered.org).
+For information on Raspberry Pi deployment, see https://www.raspberrypi.com/.
+For information on Mosquitto MQTT broker, see https://randomnerdtutorials.com/how-to-install-mosquitto-broker-on-raspberry-pi.
+For information on Node Red, see https://nodered.org/docs/getting-started/raspberrypi.
 - Change the MQTT ip adress to the broker.
 - Change IP_ADDRESS if the device is on a different subnet or if 192.168.68.200 conflicts with device on your network.
 
