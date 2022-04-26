@@ -51,20 +51,15 @@ https://adafruit-circuit-python.s3.amazonaws.com/bin/raspberry_pi_pico/en_US/ada
 Install Thonny IDE to program the WS5100S. It can be found here: https://thonny.org/.
 **MU does not need to be installed.**
 
-Create **lib** folder on the board.
-
-Test CircuitPython with the WS5100S using the Blink example program.
-
-After the testimg with Blink, download and copy the following libraries from:
-
-https://github.com/Wiznet/RP2040-HAT-CircuitPython 
-
-- adafruit_bus_device
-- adafruit_io
-- adafruit_minimqtt
-- adafruit_wiznet5k
-- adafruit_wsgi
-- adafruit_requests.py
+- Create **lib** folder on the board.
+- Test CircuitPython with the WS5100S using the Blink example program. 
+-  After the testimg with Blink, download and copy the following libraries from:https://github.com/Wiznet/RP2040-HAT-CircuitPython 
+  - adafruit_bus_device
+  - adafruit_io
+  - adafruit_minimqtt
+  - adafruit_wiznet5k
+  - adafruit_wsgi
+  - adafruit_requests.py
 
 You will need to copy one more library to the lib folder:
 Libraries (circuitpython.org)
