@@ -52,19 +52,17 @@ Install Thonny IDE to program the WS5100S. It can be found here: https://thonny.
 **MU does not need to be installed.**
 
 Test CircuitPython with the WS5100S using the Blink example program. 
+
 - Create **lib** folder on the board.
-- After the testimg with Blink, download and copy the following libraries from: https://github.com/Wiznet/RP2040-HAT-CircuitPython.
+- Download and copy the following libraries from https://github.com/Wiznet/RP2040-HAT-CircuitPython to lib.
    - adafruit_bus_device
    - adafruit_io
    - adafruit_minimqtt
    - adafruit_wiznet5k
    - adafruit_wsgi
    - adafruit_requests.py
-
-You will need to copy one more library to the lib folder:
-Libraries (circuitpython.org)
-adafruit-circuitpython-bundle-7.x-mpy-20220413.zip
-Upzip the file and copy adafruit_datetime.mpy
+- One more library needs be copied to the lib folder.
+   - Download adafruit-circuitpython-bundle-7.x-mpy-20220413.zip from https://circuitpython.org/libraries, upzip the file and copy adafruit_datetime.mpy to lib.
 
 Copy the monitor code:
 russel2512/Net_monitor (github.com) 
