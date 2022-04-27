@@ -100,13 +100,13 @@ Final changes to the programs (code.py and WIZnet_monitor.py)
 
 ![Serial port - 2](https://user-images.githubusercontent.com/13513067/164374786-9ac5ba63-d854-4d15-9d8a-aa1767f951eb.jpg)
 
-![Cable disconnected](https://user-images.githubusercontent.com/13513067/164153130-e0c81613-63fe-4434-8425-0e4acb147726.jpg)
+![Cable disconnected_s](https://user-images.githubusercontent.com/13513067/165628246-3daf0d7a-7a05-4b84-abc5-7deb0b4a8b93.jpg)
 
 **Network issue**
 
 ![Serial port - 3](https://user-images.githubusercontent.com/13513067/164514162-cff9395a-c566-405b-92af-02572847e671.jpg)
 
-![Network issue](https://user-images.githubusercontent.com/13513067/164153191-cde6b16f-ee63-4a0d-8c0c-69a46836d010.jpg)
+![Network issue_s](https://user-images.githubusercontent.com/13513067/165628303-ddfc0870-dd64-41c4-a7a8-10acd7c78050.jpg)
 
 
 **Node Red screen shots:**
