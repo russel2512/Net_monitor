@@ -53,6 +53,7 @@ Install Thonny IDE to program the WS5100S. It can be found here: https://thonny.
 
 Test CircuitPython with the WS5100S using the Blink example program. 
 
+**Library deployment steps:**
 - Create **lib** folder on the board.
 - Download and copy the following libraries from https://github.com/Wiznet/RP2040-HAT-CircuitPython to lib.
    - adafruit_bus_device
