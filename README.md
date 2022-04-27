@@ -94,7 +94,7 @@ Final changes to the programs (code.py and WIZnet_monitor.py)
 
 ![Serial port -1](https://user-images.githubusercontent.com/13513067/164374059-c697ab57-2236-4d6c-88a4-2cc02c4e4b33.jpg)
 
-![Normal operation](https://user-images.githubusercontent.com/13513067/164152993-e3de5b03-2e99-4964-8fc8-1f7138fec52e.jpg)
+![Normal operation_s](https://user-images.githubusercontent.com/13513067/165628071-281e54e3-9263-484a-b63d-6257699ca4bd.jpg)
 
 **Ethernet cable disconnected**
 
