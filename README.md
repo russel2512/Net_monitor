@@ -23,7 +23,7 @@ This project uses a WIZnet WS5100S-EVB-Pico attached to a spare Ethernet port on
 
 **Design:**
 
-- The program is written in CircuitPython. Thronny is used as the editor.
+- The program is written in CircuitPython. Thronny was used as the editor.
 - Program file name is code.py. This allows the program to autostart on powerup. **Note –** *the program will fail to start if the Ethernet cable is not plugged in.*
 - The program will try to resolve a **.com** URL. I used **dns.google**. The program was also tested with my router URL.
 - The board and external green LEDs will be on during good connections.
