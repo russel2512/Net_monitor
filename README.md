@@ -90,26 +90,26 @@ Final changes to the programs (code.py and WIZnet_monitor.py)
 
 **Serial Port display inforamtion with screen shots of LED status:**
 
-**Normal operation:**
+**Normal operation**
 
 ![Serial port -1](https://user-images.githubusercontent.com/13513067/164374059-c697ab57-2236-4d6c-88a4-2cc02c4e4b33.jpg)
 
 ![Normal operation](https://user-images.githubusercontent.com/13513067/164152993-e3de5b03-2e99-4964-8fc8-1f7138fec52e.jpg)
 
-**Ethernet cable disconnected:**
+**Ethernet cable disconnected**
 
 ![Serial port - 2](https://user-images.githubusercontent.com/13513067/164374786-9ac5ba63-d854-4d15-9d8a-aa1767f951eb.jpg)
 
 ![Cable disconnected](https://user-images.githubusercontent.com/13513067/164153130-e0c81613-63fe-4434-8425-0e4acb147726.jpg)
 
-**Network issue:**
+**Network issue**
 
 ![Serial port - 3](https://user-images.githubusercontent.com/13513067/164514162-cff9395a-c566-405b-92af-02572847e671.jpg)
 
 ![Network issue](https://user-images.githubusercontent.com/13513067/164153191-cde6b16f-ee63-4a0d-8c0c-69a46836d010.jpg)
 
 
-**Node Red screen shots**
+**Node Red screen shots:**
 
 **Startup**
 ![Node Res - Start](https://user-images.githubusercontent.com/13513067/164322109-1e07b24e-673f-4efc-bfd3-1f850cb42d0b.jpg)
