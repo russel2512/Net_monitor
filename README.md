@@ -68,7 +68,7 @@ Copy the monitor code from https://github.com/russel2512/Net_monitor.
 
 Connect the LEDs per the circuit diagram found in the GitHub project.
 
-Setup a Raspberry Pi (Node Red is optional). 
+**Setup a Raspberry Pi (Node Red is optional).** 
 - For information on Raspberry Pi deployment, see https://www.raspberrypi.com/.
 - For information on Mosquitto MQTT broker, see https://randomnerdtutorials.com/how-to-install-mosquitto-broker-on-raspberry-pi.
 - For information on Node Red, see https://nodered.org/docs/getting-started/raspberrypi.
