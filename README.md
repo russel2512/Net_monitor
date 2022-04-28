@@ -75,7 +75,9 @@ Setup a Raspberry Pi (Node Red is optional).
 - For information on Raspberry Pi deployment, see https://www.raspberrypi.com/.
 - For information on Mosquitto MQTT broker, see https://randomnerdtutorials.com/how-to-install-mosquitto-broker-on-raspberry-pi.
 - For information on Node Red, see https://nodered.org/docs/getting-started/raspberrypi.
-- Import the text from **Node Red import.txt** into Node Red. You will need to modify MQTT broker information.
+- Import the text from **Node Red import.txt** into Node Red. You may need to modify MQTT broker information. Server - 'localhost' works ok in my configuration.Change the username and password.  These will need to be change in both the code and Node Red.
+  - username="rpi-pico"
+  - password="wiznet"
 ![Node Red - flow](https://user-images.githubusercontent.com/13513067/165227980-88bef4be-f135-4114-8fc6-52981cab1f86.jpg)
 
 Final changes to the programs (code.py and WIZnet_monitor.py)
