@@ -132,4 +132,6 @@ These are just ‘blue sky’ ideas. Some may not be valid or work. The biggest 
 - Send Start, Up and Down data to external collection (ie ThingSpeak)
 - Send notifications to a phone or PC directly from Node Red
 - Add code to monitor multiple URLs, this could be used to monitor multiple servers or internal network devices (must have URLs)
-
+- Change LEDs to a small display.
+- Design a circuit board for the project.
+- Design a 3D printed case.
