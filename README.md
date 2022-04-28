@@ -87,7 +87,7 @@ Final changes to the programs (code.py and WIZnet_monitor.py)
 
 **For the program to work correctly, a MQTT broker must be available or it will fail. A broker can be deployed on almost any device. If you don't have a broker available, you can go through the code and remark out all the MQTT calls.**
 
-**Video of board/program in operation:**
+**YouTube video of board/program operation:**
 
 **https://youtu.be/2fmNqMajGyM**
 
