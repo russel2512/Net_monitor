@@ -5,6 +5,7 @@ Designed for WIZnet WS5100S-EVB-Pico contest.
 https://maker.wiznet.io/2022/01/21/internet-outage-monitor/?success=1&post_id=25762
 
 **Network/internet outage monitor using WIZnet WS5100S-EVB-Pico**
+
 This project uses a WIZnet WS5100S-EVB-Pico attached to a spare Ethernet port on a local router and is used to monitor the Network/Internet for outages. The project was designed after chasing and tracking multiple home Internet outages. I needed times and dates for my Internet provider to track down an ongoing issue I had last year. It did turn out that the issue was the cable coming off of the junction box outside my house. I wanted a device that would sit passively and monitor my network/internet 24/7. The design is a starting point for a more elaborate monitoring device. Please see Future enhancements at the end of the project. I was lucky(?) enough to have an outage in the middle of the night during programming and testing. The monitor did detect and report the outage. I wrote the program after going through all the CircuitPython examples. I borrowed and modified code from may of them. Hope you enjoy and get inspired by the project.
 
 **The program will:**
